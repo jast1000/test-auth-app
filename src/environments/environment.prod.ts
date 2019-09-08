@@ -1,3 +1,5 @@
 export const environment = {
-  production: true
+  production: true,
+  webClientId: 'WEB CLIENT ID QUE LES PROPORCIONO FIREBASE',
+  firebase: { /* SUS DATOS */ }
 };

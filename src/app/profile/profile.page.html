@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>profile</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <h1>{{ user.displayName }}</h1>
+  <img [src]="user.photoURL" />
+  <h2>{{ user.email }}</h2>
+  <h2>{{ user.phoneNumber }}</h2>
+
+  <ion-button (click)="logout()">Cerrar sesión</ion-button>
+
+</ion-content>

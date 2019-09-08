@@ -1,5 +1,7 @@
 {
   "name": "google-auth-app",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
